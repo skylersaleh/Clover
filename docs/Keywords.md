@@ -95,3 +95,14 @@ Where x can be: ' ', '2', '3', '4', '8', '16' ,'n'
 - struct
 - module
 - state_machine
+
+## Variable qualifiers
+- static
+- shared_global
+- shared_local
+- const
+
+## Memory Space Qualifiers
+- global
+- local
+- constant
