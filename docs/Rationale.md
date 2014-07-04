@@ -5,6 +5,8 @@ With a large number of problems, I noticed that the OpenCL language did not prov
 
 To fix these issues, I am trying to develop my own meta language, called Clover. It consists of three parts: a compiler/translator,  a reconfigurable ABI, and a run time, that exists in a library linked to another application. By providing these three components we can abstract the algorithm away from the current hardware, and do hardware specific optimizations in a different computational space than the algorithm. Also, by combining the compiler and the run time, new hardware features can be emulated quickly, even when the native hardware can not support the functionality. And since Clover exists solely as a library, it requires no hardware or driver modifications to use, and can be deployed in applications immediately. 
 
+![](https://raw.githubusercontent.com/skylersaleh/Clover/master/docs/diagrams/block_diagram.png)
+
 Language
 --------
 
