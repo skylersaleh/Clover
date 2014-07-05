@@ -1,25 +1,10 @@
-Keyword Listing
+Lex Token Listing
 ===============
-
-##Primitive Variables
-
-Where x can be: ' ', '2', '3', '4', '8', '16' ,'n'
-
-- ucharx
-- ushortx
-- uintx
-- ulongx
-- charx
-- shortx
-- intx
-- longx
-- floatx
-- doublex
-- gentypex
 
 ##Preprocessor
 
 - kern_id
+- sizeof
 - #import
 
 ##Flow Control
@@ -30,9 +15,6 @@ Where x can be: ' ', '2', '3', '4', '8', '16' ,'n'
 - for
 - switch
 - case
-- next
-- prev
-- curr
 - break
 - return
 - continue
@@ -106,3 +88,13 @@ Where x can be: ' ', '2', '3', '4', '8', '16' ,'n'
 - global
 - local
 - constant
+
+## Identifiers
+- Can start with a-z, A-Z, '_'
+- Other Letters can be 0-9, a-z, A-Z, '_'
+
+## Numeric Constants
+- [1-9].[1-9]
+- 0x specifies hexadecimal ex. 0x95 0x324
+- b specifies binary ex b110101011
+
