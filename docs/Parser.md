@@ -3,11 +3,17 @@
 ##Expressions
 
 - Variable Declaration 
+    
     IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME}
+
 - Variable Declaration and Assignment
+
     IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} '=' EXPRESSION
+
 - Variable Assignment
+
     EXPRESSION{Assignable} ASSIGN_OP EXPRESSION
+
 - Prefix Operator
     (&|*|++|--) EXPRESSION 
 - Postfix Operator 
