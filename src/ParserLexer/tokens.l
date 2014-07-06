@@ -91,6 +91,7 @@ L?\"(\\.|[^\\"])*\"     { SAVE_TOKEN; return(STRING_LITERAL); }
 "{"                     return TOKEN('{');
 "("                     return TOKEN('(');
 ")"                     return TOKEN(')');
+"..."                   return TOKEN('...');
 "."                     return TOKEN('.');
 "="                     return TOKEN('=');
 "->"                    return TOKEN('->');
