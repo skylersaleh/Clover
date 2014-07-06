@@ -2,10 +2,10 @@
 
 ##Expressions
 
-- Variable Declaration
-{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} }
+- Variable Declaration 
+`{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} }`
 - Variable Declaration and Assignment
-{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} '=' EXPRESSION }
+`{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} '=' EXPRESSION }`
 - Variable Assignment
 { EXPRESSION{Assignable} ASSIGN_OP EXPRESSION  }
 - Prefix Operator
@@ -51,9 +51,11 @@
 - Do-While Loop
 { DO STATEMENT WHILE '(' EXPRESSION ')' ';' }
 - Statement List 
-{ STATEMENT STATEMENT }
+{ STATEMENT STATEMENT }       
 - Block
 { '{' STATEMENT '}' }
+- Arithmetic Expression
+{ EXPRESSION ARITHMETIC_OPERATOR EXPRESSION }
 
 
 ##Assignment Operators
@@ -69,7 +71,27 @@
 - '<<='
 - '>>='
 
-## Regular Operators 
+## Arithmetic Operators 
+- +
+- -
+- *
+- /
+- %
+- &
+- | 
+- ~
+- ^
+- >
+- <
+- <=
+- >=
+- ==
+- !=
+- !
+- &&
+- ||
+- <<
+- >>
 
 
 ## Unary Operators
