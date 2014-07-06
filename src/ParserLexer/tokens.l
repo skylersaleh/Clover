@@ -50,6 +50,7 @@ extern "C" int yywrap(yyscan_t yyscanner) { }
 
 "typedef"               return TOKEN(TYPEDEF);
 "struct"                return TOKEN(STRUCT);
+"union"                 return TOKEN(UNION);
 "module"                return TOKEN(MODULE);
 "state_machine"         return TOKEN(STATE_MACHINE);
 
