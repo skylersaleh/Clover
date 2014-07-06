@@ -56,32 +56,49 @@
 
 
 ##Argument
-- Single Argument
-{ EXPRESSION }
-- Argument List (Higher Precedence than Comma Expression)
-{ EXPRESSION ',' ARGUMENT } 
+
+**Single Argument**
+
+    EXPRESSION
+
+**Argument List (Higher Precedence than Comma Expression)**
+
+    EXPRESSION ',' ARGUMENT 
 
 
 ##Statements
-- Expression Statement
-{ EXPRESSION ';' }
-- If
-{ IF '(' EXPRESSION ')' STATEMENT }
-- If-else
-{ IF '(' EXPRESSION ')' STATEMENT ELSE STATEMENT }
-- While Loop
-{ WHILE '(' EXPRESSION ')' STATEMENT }
-- For Loop
-{ FOR '(' EXPRESSION ';' EXPRESSION ';' EXPRESSION ')' STATEMENT }
-- Do-While Loop
-{ DO STATEMENT WHILE '(' EXPRESSION ')' ';' }
-- Statement List 
-{ STATEMENT STATEMENT }       
-- Block
-{ '{' STATEMENT '}' }
-- Arithmetic Expression
-{ EXPRESSION ARITHMETIC_OPERATOR EXPRESSION }
 
+**Expression Statement**
+
+    EXPRESSION ';'
+
+**If**
+
+    IF '(' EXPRESSION ')' STATEMENT
+
+**If-else**
+
+    IF '(' EXPRESSION ')' STATEMENT ELSE STATEMENT
+
+**While Loop**
+
+    WHILE '(' EXPRESSION ')' STATEMENT
+
+**For Loop**
+    
+    FOR '(' EXPRESSION ';' EXPRESSION ';' EXPRESSION ')' STATEMENT 
+
+**Do-While Loop**
+
+    DO STATEMENT WHILE '(' EXPRESSION ')' ';'
+    
+**Statement List**
+
+    STATEMENT STATEMENT
+
+**Block**
+
+    '{' STATEMENT '}'
 
 ##Assignment Operators
 - '='
