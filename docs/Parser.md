@@ -3,17 +3,17 @@
 ##Expressions
 
 - Variable Declaration 
-`{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} }`
+    IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME}
 - Variable Declaration and Assignment
-`{ IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} '=' EXPRESSION }`
+    IDENTIFIER{TYPENAME} IDENTIFIER{VARNAME} '=' EXPRESSION
 - Variable Assignment
-{ EXPRESSION{Assignable} ASSIGN_OP EXPRESSION  }
+    EXPRESSION{Assignable} ASSIGN_OP EXPRESSION
 - Prefix Operator
-{ (&|*|++|--) EXPRESSION }
+    (&|*|++|--) EXPRESSION 
 - Postfix Operator 
-{ EXPRESSION (++|--) }
+    EXPRESSION (++|--)
 - Array Access
-{ EXPRESSION '[' EXPRESSION ']' }
+    EXPRESSION '[' EXPRESSION ']'
 - Variable Read
 { IDENTIFIER{VARNAME} }
 - Ternary 
