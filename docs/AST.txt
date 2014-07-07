@@ -1,0 +1,30 @@
+#Clover Abstract Syntax Tree
+
+Node
+- Expression
+-- VariableDeclaration
+-- Assignment
+-- Prefix
+-- Postfix
+-- ArrayAccess
+-- Variable
+-- Ternary
+-- StructAccess
+-- StructAccessIndirect
+-- Comma
+-- Function
+-- Parentheses
+-- Arithmetic
+-- Constant
+-- StringLiteral
+- Argument
+-- ArgumentList
+- Statement
+-- ExpressionStatement
+-- IfElseStatement
+-- LoopStatement
+-- Block
+-- FunctionDeclaration
+-- StructDeclaration
+-- EmptyStatement
+

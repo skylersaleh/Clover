@@ -10,7 +10,7 @@
 ## Parser
 
 - Build Chromsky Normal Form of language [STARTED]
-- Design AST[NOT STARTED]
+- Design AST[STARTED]
 - Implement AST in Bison[NOT STARTED]
 - Write test-units [NOT STARTED] 
 - Write Documentation[NOT STARTED]
