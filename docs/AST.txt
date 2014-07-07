@@ -3,7 +3,17 @@
 |Node
 |\ Expression
 || VariableDeclaration
-|| Assignment
+||\ Assignment
+||| '='
+||| '+='
+||| '-='
+||| '*='
+||| '/='
+||| '%='
+||| '|='
+||| '^='
+||| '&='
+||*
 ||\ Unary
 |||\ Prefix
 |||| '+'
