@@ -111,6 +111,18 @@
 
     '{' STATEMENT '}'
 
+**Function Declaration**
+    
+    IDENTIFIER{TYPENAME OR INTENT} IDENTIFIER{VARNAME} '(' ARGUMENT ')' STATEMENT
+
+**Struct Declaration**
+
+    IDENTIFIER{STRUCT_TYPE} IDENTIFIER{TYPENAME} STATEMENT
+
+**Empty Statement**
+    
+    ';'
+
 ##Assignment Operators
 - '='
 - '+='
@@ -151,5 +163,17 @@
 - *
 - &
 - ++
-- --              
+- -- 
+- +
+- -
+- !
+- ~
 
+## Operator Precedence 
+
+1. '(', ')', '[', ']'
+2. '.', '->'
+3. '++', '--'
+4. '~', '!'
+5. '-'(Unary), '+'(Unary), '*'
+ '=', '+=', '-=', '*=', '/=', '%=', '^=', '&=', '|=', '<<=' '>>=' 
