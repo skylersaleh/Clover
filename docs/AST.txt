@@ -1,68 +1,85 @@
 #Clover Abstract Syntax Tree
 
-Node
-\ Expression
-| VariableDeclaration
-| Assignment
-|\ Unary
-||\ Prefix
+|Node
+|\ Expression
+|| VariableDeclaration
+|| Assignment
+||\ Unary
+|||\ Prefix
+|||| '+'
+|||| '-'
+|||| '&'
+|||| '*'
+|||| '++'
+|||| '--'
+|||*
+|||\ Postfix
+|||| '++'
+|||| '--'
+||**
+|| ArrayAccess
+|| Variable
+|| Ternary
+||\ StructAccess
+||| Indirect
+||| Direct
+||*
+|| Comma
+|| Function
+|| Parentheses
+||\ Binary
 ||| '+'
 ||| '-'
-||| '&'
 ||| '*'
-||| '++'
-||| '--'
+||| '/'
+||| '&'
+||| '%'
+||| '^'
+||| '|'
+||| '||'
+||| '&&'
+||| '=='
+||| '!='
+||| '<'
+||| '>'
+||| '<='
+||| '>='
 ||*
-||\ Postfix
-||| '++'
-||| '--'
+||\ Constant
+||| Integer
+||| Floating Point
+||| Hexadecimal
+||| Binary
+||| Decimal
+||*
+|| StringLiteral
+|*
+|\ Argument
+||\ ArgumentList
 |**
-| ArrayAccess
-| Variable
-| Ternary
-|\ StructAccess
-|| Indirect
-|| Direct
-|*
-| Comma
-| Function
-| Parentheses
-| Arithmetic
-|\ Constant
-|| Integer
-|| Floating Point
-|| Hexadecimal
-|| Binary
-|| Decimal
-|*
-| StringLiteral
-*
-\ Argument
-|\ ArgumentList
-**
-
-\ Statement
-| ExpressionStatement
-|\ IfElseStatement
-|| If
-|| If-else
-|*
-| SwitchStatement
-|\ LoopStatement
-|| for
-|| while
-|| do{}while()
-|*
-| Block
-|\ Declaration
-|| Function
-||\ Struct
-||| struct
-||| module
-||| enum
-||| union
+|
+|\ Statement
+|| ExpressionStatement
+||\ IfElseStatement
+||| If
+||| If-else
 ||*
-|| Enumeration
-|| Typedef
+|| SwitchStatement
+||\ LoopStatement
+||| for
+||| while
+||| do{}while()
+||*
+|| Block
+||\ Declaration
+||| Function
+|||\ Struct
+|||| struct
+|||| module
+|||| enum
+|||| union
+|||*
+||| Enumeration
+||| Typedef
+||*
 |*
-*
