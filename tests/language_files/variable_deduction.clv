@@ -1,0 +1,27 @@
+var hello_scalar = 1.f;
+var hello_vector = <1,1>;
+var hello_string = "hello world"
+
+/**
+ * #Data
+ * 1.
+ * "hello_world"
+ * 
+ *
+ * # Variables:
+ * float hello_scalar;
+ * float2 hello_vector;
+ * uchar hello_string[12];
+ *
+ * # Functions
+ * main(){
+ *  hello_scalar = 1.;
+ *  hello_vector = float2(1,1);
+ *  hello_string[0] = 'h';
+ *  hello_string[1] = 'e';
+ *  ....
+ *  hello_string[11]= 'd';
+ *  hello_string[12]= '\0';
+ * }
+ * 
+
